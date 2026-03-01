@@ -1,9 +1,10 @@
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
-import { CheckCircle, Check } from 'lucide-react';
+import { Check } from 'lucide-react';
 import { useScrollAnimation } from '../hooks/useScrollAnimation';
 import { submitApplication } from '../lib/supabase';
 import type { MembershipApplication } from '../lib/supabase';
+import ThankYou from './ThankYou';
 
 interface FormData {
   fullName: string;
@@ -28,7 +29,7 @@ const initialFormData: FormData = {
   phone: '',
   country: '',
   language: 0,
-  ageRange: 0,
+  ageRange: -1,
   propertyStatus: 0,
   visitFrequency: 0,
   heardAboutUs: 0,
@@ -45,6 +46,7 @@ export default function ApplicationForm() {
   const [formData, setFormData] = useState<FormData>(initialFormData);
   const [submitting, setSubmitting] = useState(false);
   const [submitted, setSubmitted] = useState(false);
+  const [submitError, setSubmitError] = useState(false);
   const [errors, setErrors] = useState<Record<string, boolean>>({});
 
   const animationClass = isVisible
@@ -80,7 +82,7 @@ export default function ApplicationForm() {
     }
 
     if (step === 1) {
-      if (formData.ageRange === 0) newErrors.ageRange = true;
+      if (formData.ageRange < 0) newErrors.ageRange = true;
     }
 
     setErrors(newErrors);
@@ -114,6 +116,7 @@ export default function ApplicationForm() {
     if (!validateStep(currentStep)) return;
 
     setSubmitting(true);
+    setSubmitError(false);
 
     const application: MembershipApplication = {
       full_name: formData.fullName.trim(),
@@ -139,6 +142,7 @@ export default function ApplicationForm() {
       setSubmitted(true);
     } catch {
       setSubmitting(false);
+      setSubmitError(true);
     }
   }
 
@@ -262,6 +266,7 @@ export default function ApplicationForm() {
             onChange={(e) => setFormData({ ...formData, ageRange: Number(e.target.value) })}
             className={errors.ageRange ? inputErrorClass : inputClass}
           >
+            <option value={-1} disabled>{t('form.selectPlaceholder')}</option>
             {Array.isArray(ageRanges) &&
               ageRanges.map((option, i) => (
                 <option key={i} value={i}>
@@ -301,7 +306,7 @@ export default function ApplicationForm() {
           </select>
         </div>
         <div className="mb-6">
-          <label className={labelClass}>{t('form.fields.heardAboutUs')}</label>
+          <label className={labelClass}>{t('form.fields.heardAbout')}</label>
           <select
             value={formData.heardAboutUs}
             onChange={(e) => setFormData({ ...formData, heardAboutUs: Number(e.target.value) })}
@@ -383,19 +388,6 @@ export default function ApplicationForm() {
     );
   }
 
-  function renderSuccessState() {
-    return (
-      <div className="bg-charcoal-950 p-12 rounded-sm text-center border border-amber-500/30">
-        <CheckCircle size={64} className="text-amber-500 mx-auto mb-6" />
-        <h3 className="heading-md text-white">{t('form.success.headline')}</h3>
-        <p className="text-silver-300 text-body mt-4">{t('form.success.message')}</p>
-        <a href="#hero" className="btn-secondary mt-8 inline-flex">
-          {t('form.success.back')}
-        </a>
-      </div>
-    );
-  }
-
   return (
     <section id="apply" className="bg-charcoal-900 section-padding">
       <div className="section-container max-w-3xl mx-auto">
@@ -403,17 +395,16 @@ export default function ApplicationForm() {
           ref={ref}
           className={'transition-all duration-700 ' + animationClass}
         >
-          <h2 className="heading-lg text-white text-center">
-            {t('form.headline')}
-          </h2>
-          <p className="text-silver-400 text-center text-body mb-12">
-            {t('form.subheadline')}
-          </p>
-
           {submitted ? (
-            renderSuccessState()
+            <ThankYou />
           ) : (
             <>
+              <h2 className="heading-lg text-white text-center">
+                {t('form.headline')}
+              </h2>
+              <p className="text-silver-400 text-center text-body mb-12">
+                {t('form.subheadline')}
+              </p>
               {renderStepIndicator()}
               <form
                 onSubmit={(e) => {
@@ -428,6 +419,12 @@ export default function ApplicationForm() {
                 {currentStep === 0 && renderStep0()}
                 {currentStep === 1 && renderStep1()}
                 {currentStep === 2 && renderStep2()}
+
+                {submitError && (
+                  <div className="bg-red-500/10 border border-red-500/30 rounded-sm p-4 mb-6">
+                    <p className="text-red-400 text-sm">{t('form.submitError')}</p>
+                  </div>
+                )}
 
                 <div className="flex justify-between mt-8">
                   {currentStep > 0 ? (

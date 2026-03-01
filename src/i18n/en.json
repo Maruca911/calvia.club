@@ -198,15 +198,30 @@
       "interestOptions": ["Padel", "Golf", "Tennis", "Boating", "Dining", "Wellness", "Real Estate", "Family Activities", "Networking", "Sustainability"],
       "benefitOptions": ["Community Events", "Partner Deals", "Meeting Neighbours", "Giving Back", "Family Experiences", "App & Booking"]
     },
+    "selectPlaceholder": "Please select...",
+    "submitError": "Something went wrong. Please try again or contact us directly.",
     "next": "Continue",
     "back": "Back",
     "submit": "Submit Application",
     "submitting": "Submitting...",
     "success": {
-      "headline": "Welcome -- We Will Be in Touch",
-      "message": "A member of our team will contact you personally within 48 hours from a German phone number (+49). We look forward to getting to know you.",
+      "headline": "Welcome -- You Are Almost In",
+      "message": "Thank you for your interest in Calvia.Club. Here is what happens next:",
+      "steps": {
+        "step1": "Check your email inbox (and spam folder) for a confirmation from us",
+        "step2": "You can expect a personal call from [PLACEHOLDER_PHONE_NUMBER] within the next 48 hours",
+        "step3": "During the call, we will get to know each other and answer any questions you have",
+        "step4": "After the conversation, you will receive your membership details and Calvia App access"
+      },
+      "callInfo": "Our team will reach out from a German phone number (+49). Please save this number so you recognise our call.",
       "back": "Back to Home"
     }
+  },
+  "trust": {
+    "founding": "444 Founding Memberships Only",
+    "transparent": "100% Transparent Contributions",
+    "familyIncluded": "Family Membership Included",
+    "impact": "15% Goes to Island Sustainability"
   },
   "footer": {
     "tagline": "Come together. Enjoy paradise. Shape its future.",

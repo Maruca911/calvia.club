@@ -56,6 +56,7 @@ export default function AppShowcase() {
               <img
                 src="https://images.pexels.com/photos/7014337/pexels-photo-7014337.jpeg?auto=compress&cs=tinysrgb&w=800"
                 alt="Calvia App preview"
+                loading="lazy"
                 className="w-full h-full object-cover opacity-60 group-hover:opacity-40 group-hover:scale-105 transition-all duration-500"
               />
               <div className="absolute inset-0 flex flex-col items-center justify-center">

@@ -198,15 +198,30 @@
       "interestOptions": ["Padel", "Golf", "Tennis", "Bat", "Mat", "Halsa", "Fastigheter", "Familjeaktiviteter", "Natverkande", "Hallbarhet"],
       "benefitOptions": ["Gemenskapsevenemang", "Partnererbjudanden", "Traffa grannar", "Ge tillbaka", "Familjeupplevelser", "App och bokning"]
     },
+    "selectPlaceholder": "Valj...",
+    "submitError": "Nagot gick fel. Forsok igen eller kontakta oss direkt.",
     "next": "Fortsatt",
     "back": "Tillbaka",
     "submit": "Skicka ansokan",
     "submitting": "Skickar...",
     "success": {
-      "headline": "Valkommen -- Vi hors",
-      "message": "En medlem av vart team kontaktar dig personligen inom 48 timmar fran ett tyskt telefonnummer (+49). Vi ser fram emot att lara kanna dig.",
+      "headline": "Valkommen -- Du ar nastan inne",
+      "message": "Tack for ditt intresse for Calvia.Club. Har ar vad som hander harnast:",
+      "steps": {
+        "step1": "Kontrollera din inkorg (och skrapmappen) for en bekraftelse fran oss",
+        "step2": "Du kan forvanta dig ett personligt samtal fran [PLACEHOLDER_PHONE_NUMBER] inom de narmaste 48 timmarna",
+        "step3": "Under samtalet lar vi kanna varandra och svarar pa alla dina fragor",
+        "step4": "Efter samtalet far du dina medlemsuppgifter och tillgang till Calvia-appen"
+      },
+      "callInfo": "Vart team kontaktar dig fran ett tyskt telefonnummer (+49). Spara numret sa att du kanner igen vart samtal.",
       "back": "Tillbaka till startsidan"
     }
+  },
+  "trust": {
+    "founding": "Bara 444 grundarmedlemskap",
+    "transparent": "100% transparenta bidrag",
+    "familyIncluded": "Familjemedlemskap inkluderat",
+    "impact": "15% gar till ons hallbarhet"
   },
   "footer": {
     "tagline": "Mots. Njut av paradiset. Forma dess framtid.",

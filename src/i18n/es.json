@@ -198,15 +198,30 @@
       "interestOptions": ["Padel", "Golf", "Tenis", "Nautica", "Gastronomia", "Bienestar", "Inmobiliaria", "Actividades familiares", "Networking", "Sostenibilidad"],
       "benefitOptions": ["Eventos comunitarios", "Ofertas de socios", "Conocer vecinos", "Devolver", "Experiencias familiares", "App y reservas"]
     },
+    "selectPlaceholder": "Seleccione...",
+    "submitError": "Algo salio mal. Por favor intentelo de nuevo o contactenos directamente.",
     "next": "Continuar",
     "back": "Atras",
     "submit": "Enviar solicitud",
     "submitting": "Enviando...",
     "success": {
-      "headline": "Bienvenido -- Nos pondremos en contacto",
-      "message": "Un miembro de nuestro equipo le contactara personalmente dentro de 48 horas desde un numero de telefono aleman (+49). Esperamos conocerle.",
+      "headline": "Bienvenido -- Casi esta dentro",
+      "message": "Gracias por su interes en Calvia.Club. Esto es lo que sigue:",
+      "steps": {
+        "step1": "Revise su bandeja de entrada (y la carpeta de spam) para una confirmacion de nuestra parte",
+        "step2": "Puede esperar una llamada personal de [PLACEHOLDER_PHONE_NUMBER] dentro de las proximas 48 horas",
+        "step3": "Durante la llamada, nos conoceremos y responderemos todas sus preguntas",
+        "step4": "Despues de la conversacion, recibira los detalles de su membresia y acceso a la Calvia App"
+      },
+      "callInfo": "Nuestro equipo le contactara desde un numero de telefono aleman (+49). Por favor guarde este numero para reconocer nuestra llamada.",
       "back": "Volver al inicio"
     }
+  },
+  "trust": {
+    "founding": "Solo 444 membresias fundadoras",
+    "transparent": "Contribuciones 100% transparentes",
+    "familyIncluded": "Membresia familiar incluida",
+    "impact": "15% para la sostenibilidad de la isla"
   },
   "footer": {
     "tagline": "Reunirse. Disfrutar el paraiso. Dar forma a su futuro.",

@@ -17,12 +17,19 @@ export default function Hero() {
   }, []);
 
   useEffect(() => {
+    let ticking = false;
     const handleScroll = () => {
-      if (sectionRef.current) {
-        const rect = sectionRef.current.getBoundingClientRect();
-        if (rect.bottom > 0) {
-          setScrollY(window.scrollY);
-        }
+      if (!ticking) {
+        requestAnimationFrame(() => {
+          if (sectionRef.current) {
+            const rect = sectionRef.current.getBoundingClientRect();
+            if (rect.bottom > 0) {
+              setScrollY(window.scrollY);
+            }
+          }
+          ticking = false;
+        });
+        ticking = true;
       }
     };
     window.addEventListener('scroll', handleScroll, { passive: true });
@@ -96,7 +103,7 @@ export default function Hero() {
           <div
             className={`mt-6 flex items-center gap-2 text-amber-500 transition-all duration-700 delay-700 ease-out ${loaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'}`}
           >
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-4 h-4">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 28" fill="currentColor" className="w-4 h-4">
               <path d="M12 2l3 9h9l-7.5 5.5L19.5 26 12 20 4.5 26l3-9.5L0 11h9z" />
             </svg>
             <span className="text-sm font-medium">

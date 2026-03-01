@@ -198,15 +198,30 @@
       "interestOptions": ["Padel", "Golf", "Tennis", "Bootfahren", "Kulinarik", "Wellness", "Immobilien", "Familienaktivitaeten", "Networking", "Nachhaltigkeit"],
       "benefitOptions": ["Community-Events", "Partner-Angebote", "Nachbarn kennenlernen", "Engagement", "Familien-Erlebnisse", "App & Buchung"]
     },
+    "selectPlaceholder": "Bitte waehlen...",
+    "submitError": "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut oder kontaktieren Sie uns direkt.",
     "next": "Weiter",
     "back": "Zurueck",
     "submit": "Bewerbung absenden",
     "submitting": "Wird gesendet...",
     "success": {
-      "headline": "Willkommen -- Wir melden uns",
-      "message": "Ein Mitglied unseres Teams wird Sie persoenlich innerhalb von 48 Stunden von einer deutschen Telefonnummer (+49) kontaktieren. Wir freuen uns darauf, Sie kennenzulernen.",
+      "headline": "Willkommen -- Sie sind fast dabei",
+      "message": "Vielen Dank fuer Ihr Interesse an Calvia.Club. So geht es weiter:",
+      "steps": {
+        "step1": "Pruefen Sie Ihren E-Mail-Eingang (und Spam-Ordner) auf eine Bestaetigung von uns",
+        "step2": "Sie koennen innerhalb der naechsten 48 Stunden einen persoenlichen Anruf von [PLACEHOLDER_PHONE_NUMBER] erwarten",
+        "step3": "Im Gespraech lernen wir uns kennen und beantworten alle Ihre Fragen",
+        "step4": "Nach dem Gespraech erhalten Sie Ihre Mitgliedschaftsdetails und Zugang zur Calvia App"
+      },
+      "callInfo": "Unser Team meldet sich von einer deutschen Telefonnummer (+49). Bitte speichern Sie diese Nummer, damit Sie unseren Anruf erkennen.",
       "back": "Zurueck zur Startseite"
     }
+  },
+  "trust": {
+    "founding": "Nur 444 Gruendungsmitgliedschaften",
+    "transparent": "100% transparente Beitraege",
+    "familyIncluded": "Familien-Mitgliedschaft inklusive",
+    "impact": "15% fuer Nachhaltigkeit auf der Insel"
   },
   "footer": {
     "tagline": "Zusammenkommen. Mallorca geniessen. Zukunft gestalten.",

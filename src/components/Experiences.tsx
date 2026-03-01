@@ -61,6 +61,7 @@ export default function Experiences() {
                 <img
                   src={event.image}
                   alt={t(`experiences.events.${event.key}.title`)}
+                  loading="lazy"
                   className="h-full w-full object-cover group-hover:scale-105 transition-transform duration-500"
                 />
                 <div className="absolute inset-0 bg-black/30 group-hover:bg-black/20 transition-colors duration-300" />
