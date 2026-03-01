@@ -16,35 +16,22 @@ export default function WhoIsItFor() {
   return (
     <section id="made-for" className="bg-charcoal-900 section-padding">
       <div className="section-container" ref={ref}>
-        <h2
-          className={[
-            'heading-lg text-white text-center transition-all duration-700',
-            isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8',
-          ].join(' ')}
-        >
-          {t('madeFor.headline')}
-        </h2>
-        <div
-          className={[
-            'gold-line max-w-24 mx-auto mt-4 mb-16 transition-all duration-700 delay-200',
-            isVisible ? 'opacity-100 scale-x-100' : 'opacity-0 scale-x-0',
-          ].join(' ')}
-        />
+        <div className={`animate-on-scroll${isVisible ? ' is-visible' : ''}`}>
+          <h2 className="heading-lg text-white text-center">
+            {t('madeFor.headline')}
+          </h2>
+          <div className="gold-line max-w-28 mx-auto mt-4 mb-16" />
+        </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
           {personas.map(({ key, Icon }, index) => (
             <div
               key={key}
-              className={[
-                'bg-charcoal-950 border border-amber-500/20 rounded-sm p-8 hover:border-amber-500/40 transition-all duration-300',
-                isVisible
-                  ? 'opacity-100 translate-y-0'
-                  : 'opacity-0 translate-y-8',
-              ].join(' ')}
-              style={{
-                transitionDelay: isVisible ? (300 + index * 100) + 'ms' : '0ms',
-              }}
+              className={`bg-charcoal-950 border border-amber-500/20 rounded-sm p-8 group hover:border-amber-500/40 hover:-translate-y-1 transition-all duration-300 slide-in-left${isVisible ? ' is-visible' : ''}`}
+              style={{ transitionDelay: isVisible ? `${200 + index * 120}ms` : '0ms' }}
             >
-              <Icon className="text-amber-500 mb-4" size={36} />
+              <div className="w-12 h-12 rounded-sm bg-amber-500/10 flex items-center justify-center group-hover:bg-amber-500/20 transition-colors duration-300 mb-4">
+                <Icon className="text-amber-500" size={24} />
+              </div>
               <h3 className="text-white font-heading font-semibold text-xl">
                 {t('madeFor.personas.' + key + '.title')}
               </h3>
@@ -54,21 +41,14 @@ export default function WhoIsItFor() {
             </div>
           ))}
         </div>
-        <p
-          className={[
-            'text-silver-400 text-center text-body-lg mt-16 max-w-2xl mx-auto transition-all duration-700',
-            isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8',
-          ].join(' ')}
+        <p className={`text-silver-400 text-center text-body-lg mt-16 max-w-2xl mx-auto animate-on-scroll${isVisible ? ' is-visible' : ''}`}
           style={{ transitionDelay: isVisible ? '700ms' : '0ms' }}
         >
           {t('madeFor.closing')}
         </p>
         <a
           href="#apply"
-          className={[
-            'text-amber-500 underline font-semibold mt-4 block text-center transition-all duration-700',
-            isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8',
-          ].join(' ')}
+          className={`text-amber-500 underline font-semibold mt-4 block text-center animate-on-scroll${isVisible ? ' is-visible' : ''}`}
           style={{ transitionDelay: isVisible ? '800ms' : '0ms' }}
         >
           {t('madeFor.cta')}

@@ -190,7 +190,7 @@
       "wishes": "What would you most like to see in the community?"
     },
     "options": {
-      "languages": ["German", "English", "Spanish"],
+      "languages": ["German", "English", "Spanish", "Swedish"],
       "ageRanges": ["Under 40", "40-49", "50-59", "60-69", "70+"],
       "propertyStatuses": ["Owner", "Renter", "Looking to buy", "None"],
       "visitFrequencies": ["I live here", "6+ months", "3-6 months", "1-3 months", "Less than 1 month"],

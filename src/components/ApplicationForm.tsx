@@ -20,7 +20,7 @@ interface FormData {
   wishes: string;
 }
 
-const LANGUAGE_CODES = ['de', 'en', 'es'];
+const LANGUAGE_CODES = ['de', 'en', 'es', 'sv'];
 
 const initialFormData: FormData = {
   fullName: '',

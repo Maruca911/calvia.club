@@ -1,0 +1,219 @@
+{
+  "nav": {
+    "vision": "Vision",
+    "benefits": "Fordelar",
+    "experiences": "Upplevelser",
+    "impact": "Paverkan",
+    "ecosystem": "Ekosystem",
+    "app": "Appen",
+    "apply": "Ga med"
+  },
+  "hero": {
+    "headline": "Mots. Njut av paradiset. Forma dess framtid.",
+    "subheadline": "Calvia.Club samlar andrabostadsagare och boende for att njuta av det basta av Mallorcas sydvastra del -- samtidigt som vi bidrar till en hallbar framtid for on vi alla alskar.",
+    "cta": "Bli medlem",
+    "spotsRemaining": "{{count}} av {{total}} grundarmedlemskap tillgangliga"
+  },
+  "vision": {
+    "headline": "Mer an en klubb -- En gemenskap med syfte",
+    "description": "Calvia.Club bygger pa overtygelsen att manniskorna som kallar Mallorcas sydvast hem kan gora mer tillsammans an var for sig. Vi skapar ett natverk dar grannar blir vanner, dar delade passioner leder till riktiga upplevelser och dar varje medlemskap hjalper till att forma ons framtid till det battre.",
+    "pillars": {
+      "connection": {
+        "title": "Riktig gemenskap",
+        "description": "Traffa grannar och likasinnade boende som delar din karlek for denna del av on. Inga formaliteter -- bara akta vanskapder."
+      },
+      "nature": {
+        "title": "Natur och hallbarhet",
+        "description": "Mallorcas skonhet ar anledningen till att vi ar har. Tillsammans skyddar och firar vi de landskap, kuster och samhallen som gor den sarskild."
+      },
+      "family": {
+        "title": "Familj och generationer",
+        "description": "Fran morforaldrar till barnbarn -- vara upplevelser ar utformade for att fora familjer narmare och skapa minnen som varar."
+      },
+      "impact": {
+        "title": "Ge tillbaka tillsammans",
+        "description": "Varje medlemskap bidrar till lokala andamal. Du ser exakt vart din insats gar -- transparent, sparbar, meningsfull."
+      }
+    }
+  },
+  "benefits": {
+    "headline": "Vad du far som medlem",
+    "network": {
+      "title": "Din gemenskap",
+      "items": [
+        "Ett valkomnande natverk av boende och andrabostadsagare i sydvastra Mallorca",
+        "Meningsfulla kontakter byggda pa delade intressen och varden",
+        "En gemenskap du ar stolt over att tillhora"
+      ]
+    },
+    "experiences": {
+      "title": "Dina upplevelser",
+      "items": [
+        "Evenemang bara for medlemmar: padel, golf, batdagar, kulinariska kvaller och mer",
+        "Sasongsaktiviteter for alla aldrar och intressen",
+        "Enkel bokning via Calvia-appen"
+      ]
+    },
+    "legacy": {
+      "title": "Din paverkan",
+      "items": [
+        "15% av varje medlemskap gar direkt till hallbarhetsprojekt pa on",
+        "Verifierade partnererbjudanden hos de basta lokala foretagarna",
+        "Ett familjemedlemskap som inkluderar dina nara och kara"
+      ]
+    }
+  },
+  "experiences": {
+    "headline": "Upplevelser som for oss samman",
+    "subtitle": "Sasongsvis utvalda av vart community-team. Bokningsbara via Calvia-appen.",
+    "events": {
+      "padel": { "title": "Padel-traffar", "description": "Vanliga matcher och turneringar pa toppklubbar, foljt av drinkar och gott sallskap." },
+      "golf": { "title": "Golfdagar", "description": "Spela pa Mallorcas finaste banor med medlemmar som delar din passion." },
+      "boat": { "title": "Batdagar", "description": "Kustutflykter med vara partners Boatsters Black och Rib Club -- sol, hav och bra samtal." },
+      "dining": { "title": "Middagar i solnedgangen", "description": "Kulinariska kvaller pa partnerrestauranger som Just Curry och andra handplockade Calvia-favoriter." },
+      "wellness": { "title": "Halsa och aktivt liv", "description": "Fran pilates till guidade vandringar -- hall dig aktiv och ladda om tillsammans." },
+      "family": { "title": "Familjedagar", "description": "Aventyr utformade for varje generation -- for de basta minnena delas." }
+    }
+  },
+  "impact": {
+    "headline": "Tillsammans gor vi skillnad",
+    "description": "Det har ar ingen symbolisk gest. 15% av varje medlemskap tillagnas andamal som betyder nagot -- har pa on och i hela regionen.",
+    "breakdown": {
+      "mallorca": { "percentage": "7%", "label": "for Mallorca", "description": "Naturvard, djurvalfard, barnprojekt, aldreomsorg" },
+      "balearic": { "percentage": "2%", "label": "for Balearerna", "description": "Regionala samhalls- och miljoprojekt" },
+      "spain": { "percentage": "1%", "label": "for Spanien", "description": "Nationella hallbarhetsinitiativ" },
+      "member": { "percentage": "5%", "label": "Ditt val", "description": "Du styr denna del till det andamal som ligger dig narmast om hjartat" }
+    },
+    "partners": "I samarbete med verifierade valgorenhetsorganisationer i 7 EU-lander -- forskolor, djurhem, aldreboenden och miljoprojekt."
+  },
+  "reinvestment": {
+    "headline": "Ditt medlemskap ger tillbaka till dig",
+    "description": "Utover gemenskap och paverkan las ditt medlemskap upp riktiga, konkreta fordelar som berikar din vardag pa on.",
+    "features": {
+      "deals": { "title": "Verifierade partnererbjudanden", "description": "Rabatter och specialerbjudanden pa handplockade Calvia-restauranger, marinservice, hallsoproviders och mer." },
+      "events": { "title": "Evenemang bara for medlemmar", "description": "Fran solnedgangsmiddagar till padelturneringar -- upplevelser du inte hittar nagon annanstans, enkelt bokade via appen." },
+      "sustainability": { "title": "Kollektiv hallbarhet", "description": "Delta i strandstadning, naturaterstallning och samhallsprojekt som gor vart delade hem battre." },
+      "family": { "title": "Familj inkluderad", "description": "Ditt medlemskap galler for hela din familj. Ta med alla -- partner, barn, barnbarn." }
+    },
+    "quote": "Ditt medlemskap ar ingen kostnad -- det ar en investering i din gemenskap, din familj och on du alskar."
+  },
+  "ecosystem": {
+    "headline": "Calvia-ekosystemet",
+    "description": "Calvia.Club ar hjartat av en vaxande familj av varumarken och plattformar, alla dedikerade till att berika livet i Mallorcas sydvast.",
+    "brands": {
+      "group": { "name": "Calvia.group", "description": "Moderorganisationen bakom ekosystemet" },
+      "app": { "name": "Calvia.App", "description": "Ditt digitala medlemshem for bokningar, erbjudanden och gemenskap" },
+      "realestate": { "name": "Calvia.realestate", "description": "Fastighetsvagledning for sydvastra Mallorca" },
+      "digital": { "name": "Calvia.digital", "description": "Digitala losningar for det lokala foretagssamhallet" },
+      "jobs": { "name": "Calvia.jobs", "description": "Kopplar samman talang med mojligheter pa on" },
+      "ventures": { "name": "Calvia.ventures", "description": "Stodjer innovation och foretagande i regionen" }
+    }
+  },
+  "appShowcase": {
+    "headline": "Calvia-appen -- Ditt digitala hem",
+    "description": "Allt du behover som medlem, direkt i fickan. Calvia-appen byggs for vara grundarmedlemmar och blir navet for hela din Calvia.Club-upplevelse.",
+    "features": {
+      "booking": { "title": "Enkel bokning", "description": "Bladdra och boka evenemang, partnerupplevelser och gemenskapsaktiviteter med nagra fa tryck." },
+      "deals": { "title": "Partnererbjudanden", "description": "Fa tillgang till verifierade rabatter och specialerbjudanden fran vart vaxande natverk av Calvia-partners." },
+      "community": { "title": "Gemenskapskanaler", "description": "Kontakta medmedlemmar, dela rekommendationer och organisera traffar genom dedikerade kanaler." },
+      "gated": { "title": "Bara for medlemmar", "description": "Appen ar lasmast -- bara verifierade Calvia.Club-medlemmar far tillgang. Ditt utrymme, din gemenskap." }
+    },
+    "videoLabel": "Se Calvia-appen i aktion",
+    "comingSoon": "Kommer snart for grundarmedlemmar"
+  },
+  "partners": {
+    "headline": "Vara verifierade partners",
+    "subtitle": "Varje partner ar handplockad och verifierad. Som grundarmedlem hjalper du forma vilka som ansluter sig till vart natverk.",
+    "list": {
+      "agency": { "name": "The Agency Mallorca", "category": "Fastigheter", "perk": "Prioriterade fastighetskonsultationer och marknadsinsikter for medlemmar" },
+      "ribclub": { "name": "Rib Club", "category": "Marin och upplevelser", "perk": "Medlemspriser pa kustaventyr och batupplevelser" },
+      "boatsters": { "name": "Boatsters Black", "category": "Marin och charter", "perk": "Foredragscharterpriser och prioriterad bokning for medlemmar" },
+      "justcurry": { "name": "Just Curry och utvalda Calvia-restauranger", "category": "Mat och kulinarik", "perk": "Specialmenyer, reserverade bord och medlemspriser pa partnerrestauranger" }
+    }
+  },
+  "madeFor": {
+    "headline": "Ar Calvia.Club nagot for dig?",
+    "personas": {
+      "professional": {
+        "title": "Den etablerade invannaren",
+        "description": "Du ager ett hem i sydvastra Mallorca och vill kanna dig mer kopplad till gemenskapen omkring dig. Du soker akta vanner bland grannar som delar din livsstil och dina varden."
+      },
+      "family": {
+        "title": "Det familjeorienterade paret",
+        "description": "Du vill ha utvalda upplevelser for dig och dina barn eller barnbarn -- inte bara aktiviteter, utan en riktig gemenskap dar hela din familj kannar sig hemma."
+      },
+      "purposeDriven": {
+        "title": "Den medvetne bidragsgivaren",
+        "description": "Du bryr dig om denna o och vill att din livsstil lamnar den i battre skick an du fann den. Du soker meningsfulla satt att ge tillbaka tillsammans med manniskor som delar det engagemanget."
+      },
+      "active": {
+        "title": "Den aktiva obon",
+        "description": "Oavsett om det ar padel, golf, tennis eller vandring -- du soker palitliga manniskor att spela med, utforska med och njuta av olivet tillsammans."
+      }
+    },
+    "closing": "Om nagot av detta resonerar med dig, vill vi garna hora fran dig.",
+    "cta": "Ga med i gemenskapen"
+  },
+  "faq": {
+    "headline": "Dina fragor, besvarade",
+    "items": [
+      { "question": "Vilka ar Calvia.Club for?", "answer": "For andrabostadsagare och boende i sydvastra Mallorca som vill ha riktiga kontakter, fantastiska upplevelser och ett satt att bidra till ons framtid. Ingen aldersgrans, ingen kladdkod -- bara delade varden." },
+      { "question": "Hur manga medlemmar kommer det finnas?", "answer": "Vi borjar med 444 grundarmedlemskap. Det haller gemenskapen sammansvetsad och sakerstaellar att varje medlem ar mer an bara ett nummer." },
+      { "question": "Vad hander efter att jag ansokt?", "answer": "En medlem av vart team kontaktar dig personligen inom 48 timmar fran ett tyskt telefonnummer (+49) for ett avslappnat, oforpliktande samtal." },
+      { "question": "Ar detta en rabattklubb?", "answer": "Nej. Aven om du far riktiga partnererbjudanden handlar Calvia.Club om gemenskap, delade upplevelser och att ge tillbaka. Fordelarna ar en valkomstbonus, inte poangen." },
+      { "question": "Hur hanteras bidrag?", "answer": "Transparent. 15% av varje medlemskap gar till valgorande andamal -- 10% baserat pa gemenskapsprioriteringar, 5% styrt av ditt personliga val. Allt genom verifierade EU-partnerorganisationer med fullstandig rapportering." },
+      { "question": "Kan min familj ga med?", "answer": "Varje medlemskap inkluderar din familj. Manga av vara evenemang ar utformade for alla generationer -- det ar en karnig del av vilka vi ar." },
+      { "question": "Vad ar Calvia-appen?", "answer": "Appen ar det digitala hemmet for var gemenskap -- evenemangsbokningar, partnererbjudanden, gemenskapskanaler och din personliga paverkanspanel. Den byggs for grundarmedlemmar och kommer vara lasmast (bara for medlemmar)." },
+      { "question": "Vad ar Calvia-ekosystemet?", "answer": "Calvia.Club ar del av en bredare varumarkesfamilj inklusive Calvia.group, Calvia.App, Calvia.realestate, Calvia.digital, Calvia.jobs och Calvia.ventures -- alla arbetar tillsammans for att berika livet i Mallorcas sydvast." }
+    ]
+  },
+  "form": {
+    "headline": "Ga med i gemenskapen",
+    "subheadline": "Beratta lite om dig sjalv. Vi granskar varje ansokan personligen.",
+    "steps": {
+      "personal": "Dina uppgifter",
+      "qualifying": "Om dig",
+      "interests": "Intressen och onskemal"
+    },
+    "fields": {
+      "fullName": "Fullstandigt namn",
+      "email": "E-postadress",
+      "phone": "Telefon (med landsnummer)",
+      "country": "Bosattningsland",
+      "language": "Foredragssprak",
+      "ageRange": "Aldersgrupp",
+      "propertyStatus": "Fastighetsstatus i Calvia",
+      "visitFrequency": "Hur ofta besoker du Mallorca per ar?",
+      "heardAbout": "Hur horde du om Calvia.Club?",
+      "interests": "Vilka aktiviteter intresserar dig?",
+      "benefits": "Vilka fordelar varderar du mest?",
+      "wishes": "Vad skulle du mest vilja se i gemenskapen?"
+    },
+    "options": {
+      "languages": ["Tyska", "Engelska", "Spanska", "Svenska"],
+      "ageRanges": ["Under 40", "40-49", "50-59", "60-69", "70+"],
+      "propertyStatuses": ["Agare", "Hyresgast", "Soker kopa", "Inget"],
+      "visitFrequencies": ["Jag bor har", "6+ manader", "3-6 manader", "1-3 manader", "Mindre an 1 manad"],
+      "heardOptions": ["Sociala medier", "Van eller granne", "Sag bilen", "Google-sokning", "Evenemang", "Annat"],
+      "interestOptions": ["Padel", "Golf", "Tennis", "Bat", "Mat", "Halsa", "Fastigheter", "Familjeaktiviteter", "Natverkande", "Hallbarhet"],
+      "benefitOptions": ["Gemenskapsevenemang", "Partnererbjudanden", "Traffa grannar", "Ge tillbaka", "Familjeupplevelser", "App och bokning"]
+    },
+    "next": "Fortsatt",
+    "back": "Tillbaka",
+    "submit": "Skicka ansokan",
+    "submitting": "Skickar...",
+    "success": {
+      "headline": "Valkommen -- Vi hors",
+      "message": "En medlem av vart team kontaktar dig personligen inom 48 timmar fran ett tyskt telefonnummer (+49). Vi ser fram emot att lara kanna dig.",
+      "back": "Tillbaka till startsidan"
+    }
+  },
+  "footer": {
+    "tagline": "Mots. Njut av paradiset. Forma dess framtid.",
+    "privacy": "Integritetspolicy",
+    "terms": "Anvandarvillkor",
+    "imprint": "Impressum",
+    "copyright": "2026 Calvia Group. Alla rattigheter forbehallna.",
+    "backToTop": "Till toppen"
+  }
+}

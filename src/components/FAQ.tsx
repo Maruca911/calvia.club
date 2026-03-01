@@ -13,25 +13,18 @@ export default function FAQ() {
     answer: string;
   }[];
 
-  const animationClass = isVisible
-    ? 'opacity-100 translate-y-0'
-    : 'opacity-0 translate-y-8';
-
   const toggle = (index: number) => {
     setOpenIndex(openIndex === index ? null : index);
   };
 
   return (
     <section id="faq" className="bg-charcoal-950 section-padding">
-      <div className="section-container">
-        <div
-          ref={ref}
-          className={'transition-all duration-700 ' + animationClass}
-        >
+      <div className="section-container" ref={ref}>
+        <div className={`animate-on-scroll${isVisible ? ' is-visible' : ''}`}>
           <h2 className="heading-lg text-white text-center">
             {t('faq.headline')}
           </h2>
-          <div className="gold-line max-w-24 mx-auto mt-4 mb-16" />
+          <div className="gold-line max-w-28 mx-auto mt-4 mb-16" />
           <div className="max-w-3xl mx-auto">
             {items.map((item, index) => {
               const isOpen = openIndex === index;

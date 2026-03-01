@@ -190,7 +190,7 @@
       "wishes": "Was wuerden Sie sich in der Gemeinschaft am meisten wuenschen?"
     },
     "options": {
-      "languages": ["Deutsch", "Englisch", "Spanisch"],
+      "languages": ["Deutsch", "Englisch", "Spanisch", "Schwedisch"],
       "ageRanges": ["Unter 40", "40-49", "50-59", "60-69", "70+"],
       "propertyStatuses": ["Eigentuemer", "Mieter", "Kaufinteressent", "Keines"],
       "visitFrequencies": ["Ich lebe hier", "6+ Monate", "3-6 Monate", "1-3 Monate", "Weniger als 1 Monat"],
