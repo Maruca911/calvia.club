@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Inter:wght@300;400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply scroll-smooth antialiased;
+    font-size: 16px;
+  }
+
+  body {
+    @apply bg-charcoal-950 text-silver-200 font-body;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-heading font-semibold tracking-tight;
+  }
+
+  ::selection {
+    @apply bg-amber-500/30 text-white;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply inline-flex items-center justify-center px-8 py-4 bg-amber-500 text-charcoal-950 font-heading font-semibold text-lg rounded-sm
+           hover:bg-amber-400 active:bg-amber-600 transition-all duration-300
+           hover:shadow-[0_0_24px_rgba(245,166,35,0.3)] hover:-translate-y-0.5;
+  }
+
+  .btn-secondary {
+    @apply inline-flex items-center justify-center px-8 py-4 border-2 border-amber-500 text-amber-500 font-heading font-semibold text-lg rounded-sm
+           hover:bg-amber-500 hover:text-charcoal-950 transition-all duration-300;
+  }
+
+  .section-container {
+    @apply max-w-7xl mx-auto px-6 sm:px-8 lg:px-12;
+  }
+
+  .section-padding {
+    @apply py-24 sm:py-32;
+  }
+
+  .heading-xl {
+    @apply text-4xl sm:text-5xl lg:text-6xl font-bold leading-[1.1];
+  }
+
+  .heading-lg {
+    @apply text-3xl sm:text-4xl lg:text-5xl font-bold leading-[1.15];
+  }
+
+  .heading-md {
+    @apply text-2xl sm:text-3xl font-semibold leading-[1.2];
+  }
+
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .gold-line {
+    @apply h-px bg-gradient-to-r from-transparent via-amber-500 to-transparent;
+  }
+
+  .card-dark {
+    @apply bg-charcoal-900 border border-charcoal-700/50 rounded-sm p-8
+           hover:border-amber-500/30 transition-all duration-300;
+  }
+
+  .stripe-divider {
+    @apply relative overflow-hidden;
+  }
+
+  .stripe-divider::before {
+    content: '';
+    @apply absolute inset-0 pointer-events-none;
+    background: repeating-linear-gradient(
+      -45deg,
+      transparent,
+      transparent 40px,
+      rgba(245, 166, 35, 0.04) 40px,
+      rgba(245, 166, 35, 0.04) 80px
+    );
+  }
+}
+
+@layer utilities {
+  .animate-on-scroll {
+    opacity: 0;
+    transform: translateY(24px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+  }
+
+  .animate-on-scroll.is-visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

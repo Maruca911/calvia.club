@@ -1,0 +1,219 @@
+{
+  "nav": {
+    "vision": "Vision",
+    "benefits": "Benefits",
+    "experiences": "Experiences",
+    "impact": "Impact",
+    "ecosystem": "Ecosystem",
+    "app": "The App",
+    "apply": "Join Us"
+  },
+  "hero": {
+    "headline": "Come together. Enjoy paradise. Shape its future.",
+    "subheadline": "Calvia.Club brings second home-owners and residents together to enjoy the best of Mallorca's southwest -- while contributing to a sustainable future for the island we all love.",
+    "cta": "Become a Member",
+    "spotsRemaining": "{{count}} of {{total}} Founding Memberships Available"
+  },
+  "vision": {
+    "headline": "More Than a Club -- A Community with Purpose",
+    "description": "Calvia.Club is built on the belief that the people who call Mallorca's southwest home can do more together than alone. We are creating a network where neighbours become friends, where shared passions lead to real experiences, and where every membership helps shape the island's future for the better.",
+    "pillars": {
+      "connection": {
+        "title": "Real Connections",
+        "description": "Meet neighbours and like-minded residents who share your love for this corner of the island. No formalities -- just genuine friendships."
+      },
+      "nature": {
+        "title": "Nature & Sustainability",
+        "description": "Mallorca's beauty is why we are here. Together, we protect and celebrate the landscapes, coastlines, and communities that make it special."
+      },
+      "family": {
+        "title": "Family & Generations",
+        "description": "From grandparents to grandchildren -- our experiences are designed to bring families closer and create memories that last."
+      },
+      "impact": {
+        "title": "Giving Back Together",
+        "description": "Every membership contributes to local causes. You will see exactly where your impact goes -- transparent, traceable, meaningful."
+      }
+    }
+  },
+  "benefits": {
+    "headline": "What You Get as a Member",
+    "network": {
+      "title": "Your Community",
+      "items": [
+        "A welcoming network of residents and second home-owners in southwest Mallorca",
+        "Meaningful connections built around shared interests and values",
+        "A community you are proud to be part of"
+      ]
+    },
+    "experiences": {
+      "title": "Your Experiences",
+      "items": [
+        "Members-only events: padel, golf, boat days, culinary evenings, and more",
+        "Seasonal activities curated for all ages and interests",
+        "Easy booking through the Calvia App"
+      ]
+    },
+    "legacy": {
+      "title": "Your Impact",
+      "items": [
+        "15% of every membership goes directly to island sustainability projects",
+        "Verified partner deals at the best local businesses",
+        "A family membership that includes your loved ones"
+      ]
+    }
+  },
+  "experiences": {
+    "headline": "Experiences That Bring Us Together",
+    "subtitle": "Curated seasonally by our community team. Bookable through the Calvia App.",
+    "events": {
+      "padel": { "title": "Padel Socials", "description": "Friendly matches and tournaments at top clubs, followed by drinks and good company." },
+      "golf": { "title": "Golf Days", "description": "Tee off at Mallorca's finest courses with fellow members who share your passion." },
+      "boat": { "title": "Boat Days", "description": "Coastal outings with our partners Boatsters Black and Rib Club -- sun, sea, and great conversations." },
+      "dining": { "title": "Sunset Dinners", "description": "Culinary evenings at partner restaurants like Just Curry and other handpicked Calvia favourites." },
+      "wellness": { "title": "Wellness & Active Living", "description": "From pilates to guided hikes -- stay active and recharge together." },
+      "family": { "title": "Family Days", "description": "Adventures designed for every generation -- because the best memories are shared." }
+    }
+  },
+  "impact": {
+    "headline": "Together, We Make a Difference",
+    "description": "This is not a token gesture. 15% of every membership is dedicated to causes that matter -- right here on the island and across the region.",
+    "breakdown": {
+      "mallorca": { "percentage": "7%", "label": "for Mallorca", "description": "Nature conservation, animal welfare, children's projects, elder care" },
+      "balearic": { "percentage": "2%", "label": "for the Balearics", "description": "Regional community and environmental projects" },
+      "spain": { "percentage": "1%", "label": "for Spain", "description": "National sustainability initiatives" },
+      "member": { "percentage": "5%", "label": "Your Choice", "description": "You direct this portion to the cause closest to your heart" }
+    },
+    "partners": "Working with verified charitable organisations across 7 EU countries -- kindergartens, animal shelters, care homes, and environmental projects."
+  },
+  "reinvestment": {
+    "headline": "Your Membership Gives Back to You",
+    "description": "Beyond community and impact, your membership unlocks real, tangible benefits that enhance your daily life on the island.",
+    "features": {
+      "deals": { "title": "Verified Partner Deals", "description": "Discounts and special offers at handpicked Calvia restaurants, marine services, wellness providers, and more." },
+      "events": { "title": "Members-Only Events", "description": "From sunset dinners to padel tournaments -- experiences you cannot find anywhere else, booked easily through the app." },
+      "sustainability": { "title": "Collective Sustainability", "description": "Participate in beach cleanups, nature restoration, and community projects that make our shared home better." },
+      "family": { "title": "Family Included", "description": "Your membership extends to your family. Bring everyone along -- partners, children, grandchildren." }
+    },
+    "quote": "Your membership is not a cost -- it is an investment in your community, your family, and the island you love."
+  },
+  "ecosystem": {
+    "headline": "The Calvia Ecosystem",
+    "description": "Calvia.Club is the heart of a growing family of brands and platforms, all dedicated to enriching life in Mallorca's southwest.",
+    "brands": {
+      "group": { "name": "Calvia.group", "description": "The parent organisation behind the ecosystem" },
+      "app": { "name": "Calvia.App", "description": "Your members-only digital home for bookings, deals, and community" },
+      "realestate": { "name": "Calvia.realestate", "description": "Property guidance for the southwest Mallorca market" },
+      "digital": { "name": "Calvia.digital", "description": "Digital solutions for the local business community" },
+      "jobs": { "name": "Calvia.jobs", "description": "Connecting talent with opportunities on the island" },
+      "ventures": { "name": "Calvia.ventures", "description": "Supporting innovation and entrepreneurship in the region" }
+    }
+  },
+  "appShowcase": {
+    "headline": "The Calvia App -- Your Digital Home",
+    "description": "Everything you need as a member, right in your pocket. The Calvia App is built for our founding members and will be the central hub for your entire Calvia.Club experience.",
+    "features": {
+      "booking": { "title": "Easy Booking", "description": "Browse and book events, partner experiences, and community activities in just a few taps." },
+      "deals": { "title": "Partner Deals", "description": "Access verified discounts and special offers from our growing network of Calvia partners." },
+      "community": { "title": "Community Channels", "description": "Connect with fellow members, share recommendations, and organise meetups through dedicated channels." },
+      "gated": { "title": "Members Only", "description": "The app is gated -- only verified Calvia.Club members get access. Your space, your community." }
+    },
+    "videoLabel": "See the Calvia App in action",
+    "comingSoon": "Coming soon for Founding Members"
+  },
+  "partners": {
+    "headline": "Our Verified Partners",
+    "subtitle": "Every partner is handpicked and verified. As a founding member, you help shape who joins our network.",
+    "list": {
+      "agency": { "name": "The Agency Mallorca", "category": "Real Estate", "perk": "Priority property consultations and market insights for members" },
+      "ribclub": { "name": "Rib Club", "category": "Marine & Experiences", "perk": "Members-only rates on coastal adventures and boat experiences" },
+      "boatsters": { "name": "Boatsters Black", "category": "Marine & Charter", "perk": "Preferential charter rates and priority booking for members" },
+      "justcurry": { "name": "Just Curry & select Calvia restaurants", "category": "Dining & Culinary", "perk": "Special menus, reserved tables, and member pricing at partner restaurants" }
+    }
+  },
+  "madeFor": {
+    "headline": "Is Calvia.Club for You?",
+    "personas": {
+      "professional": {
+        "title": "The Settled Resident",
+        "description": "You own a home in southwest Mallorca and want to feel more connected to the community around you. You are looking for genuine friendships with neighbours who share your lifestyle and values."
+      },
+      "family": {
+        "title": "The Family-Oriented Couple",
+        "description": "You want curated experiences for yourselves and your children or grandchildren -- not just activities, but a real community where your whole family feels at home."
+      },
+      "purposeDriven": {
+        "title": "The Conscious Contributor",
+        "description": "You care about this island and want your lifestyle to leave it better than you found it. You are looking for meaningful ways to give back alongside people who share that commitment."
+      },
+      "active": {
+        "title": "The Active Islander",
+        "description": "Whether padel, golf, tennis, or hiking -- you are looking for reliable people to play with, explore with, and enjoy island life together."
+      }
+    },
+    "closing": "If any of this resonates with you, we would love to hear from you.",
+    "cta": "Join the community"
+  },
+  "faq": {
+    "headline": "Your Questions, Answered",
+    "items": [
+      { "question": "Who is Calvia.Club for?", "answer": "For second home-owners and residents in southwest Mallorca who want real connections, great experiences, and a way to contribute to the island's future. No age limit, no dress code -- just shared values." },
+      { "question": "How many members will there be?", "answer": "We are starting with 444 founding memberships. This keeps the community close-knit and ensures every member is more than just a number." },
+      { "question": "What happens after I apply?", "answer": "A member of our team will contact you personally within 48 hours from a German phone number (+49) for a relaxed, no-obligation conversation." },
+      { "question": "Is this a discount club?", "answer": "No. While you do get real partner deals, Calvia.Club is about community, shared experiences, and giving back. The benefits are a welcome bonus, not the point." },
+      { "question": "How are contributions handled?", "answer": "Transparently. 15% of each membership goes to charitable causes -- 10% based on community priorities, 5% directed by your personal choice. All through verified EU partner organisations with full reporting." },
+      { "question": "Can my family join?", "answer": "Every membership includes your family. Many of our events are designed for all generations -- it is a core part of who we are." },
+      { "question": "What is the Calvia App?", "answer": "The app is the digital home for our community -- event bookings, partner deals, community channels, and your personal impact dashboard. It is being built for founding members and will be gated (members only)." },
+      { "question": "What is the Calvia Ecosystem?", "answer": "Calvia.Club is part of a broader family of brands including Calvia.group, Calvia.App, Calvia.realestate, Calvia.digital, Calvia.jobs, and Calvia.ventures -- all working together to enrich life in Mallorca's southwest." }
+    ]
+  },
+  "form": {
+    "headline": "Join the Community",
+    "subheadline": "Tell us a bit about yourself. We review every application personally.",
+    "steps": {
+      "personal": "Your Details",
+      "qualifying": "About You",
+      "interests": "Interests & Wishes"
+    },
+    "fields": {
+      "fullName": "Full Name",
+      "email": "Email Address",
+      "phone": "Phone (with country code)",
+      "country": "Country of Residence",
+      "language": "Preferred Language",
+      "ageRange": "Age Range",
+      "propertyStatus": "Property Status in Calvia",
+      "visitFrequency": "How often do you visit Mallorca per year?",
+      "heardAbout": "How did you hear about Calvia.Club?",
+      "interests": "Which activities interest you?",
+      "benefits": "Which benefits do you value most?",
+      "wishes": "What would you most like to see in the community?"
+    },
+    "options": {
+      "languages": ["German", "English", "Spanish"],
+      "ageRanges": ["Under 40", "40-49", "50-59", "60-69", "70+"],
+      "propertyStatuses": ["Owner", "Renter", "Looking to buy", "None"],
+      "visitFrequencies": ["I live here", "6+ months", "3-6 months", "1-3 months", "Less than 1 month"],
+      "heardOptions": ["Social media", "Friend or neighbour", "Saw the car", "Google search", "Event", "Other"],
+      "interestOptions": ["Padel", "Golf", "Tennis", "Boating", "Dining", "Wellness", "Real Estate", "Family Activities", "Networking", "Sustainability"],
+      "benefitOptions": ["Community Events", "Partner Deals", "Meeting Neighbours", "Giving Back", "Family Experiences", "App & Booking"]
+    },
+    "next": "Continue",
+    "back": "Back",
+    "submit": "Submit Application",
+    "submitting": "Submitting...",
+    "success": {
+      "headline": "Welcome -- We Will Be in Touch",
+      "message": "A member of our team will contact you personally within 48 hours from a German phone number (+49). We look forward to getting to know you.",
+      "back": "Back to Home"
+    }
+  },
+  "footer": {
+    "tagline": "Come together. Enjoy paradise. Shape its future.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "imprint": "Imprint",
+    "copyright": "2026 Calvia Group. All rights reserved.",
+    "backToTop": "Back to top"
+  }
+}
